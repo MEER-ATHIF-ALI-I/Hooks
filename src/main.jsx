@@ -7,6 +7,7 @@ import PrevState from './PrevState.jsx'
 import WithoutArray from './useState-without.jsx'
 import UseRefBasics from './useRef.jsx'
 import UseMemo from './UseMemo.jsx'
+import UseCallBack from './UseCallBack.jsx'
 
 createRoot(document.getElementById('root')).render(
    <StrictMode>
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')).render(
     <PrevState/> */}
     {/* <WithoutArray/> */}
     {/* <UseRefBasics/> */}
-    <UseMemo/>
+    {/* <UseMemo/> */}
+    <UseCallBack/>
     
    </StrictMode>,
  
