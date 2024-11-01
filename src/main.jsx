@@ -5,14 +5,16 @@ import App from './App.jsx'
 import Object from  './Object.jsx'
 import PrevState from './PrevState.jsx'
 import WithoutArray from './useState-without.jsx'
+import UseRefBasics from './useRef.jsx'
 
 createRoot(document.getElementById('root')).render(
    <StrictMode>
     {/* <App /> */}
     {/* <Object/>
     <PrevState/> */}
-    <WithoutArray/>
+    {/* <WithoutArray/> */}
+    <UseRefBasics/>
+    
    </StrictMode>,
  
 )
-console.log('Render')
