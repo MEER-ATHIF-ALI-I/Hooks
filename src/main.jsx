@@ -9,19 +9,21 @@ import UseRefBasics from './useRef.jsx'
 import UseMemo from './UseMemo.jsx'
 import UseCallBack from './UseCallBack.jsx'
 import ContextProvider, { AppContext } from './context/AppContext.jsx'
+import UseReducer from './UseReducer.jsx'
 
 createRoot(document.getElementById('root')).render(
    <StrictMode>
-       <ContextProvider> 
+       {/* <ContextProvider> 
          
-      <App />
+      <App /> */}
     {/* <Object/>
     <PrevState/> */}
     {/* <WithoutArray/> */}
     {/* <UseRefBasics/> */}
     {/* <UseMemo/> */}
     {/* <UseCallBack/> */}
-      </ContextProvider>
+      {/* </ContextProvider> */}
+      <UseReducer/>
     
    
    </StrictMode>,
