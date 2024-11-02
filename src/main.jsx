@@ -8,17 +8,23 @@ import WithoutArray from './useState-without.jsx'
 import UseRefBasics from './useRef.jsx'
 import UseMemo from './UseMemo.jsx'
 import UseCallBack from './UseCallBack.jsx'
+import ContextProvider, { AppContext } from './context/AppContext.jsx'
 
 createRoot(document.getElementById('root')).render(
    <StrictMode>
-    {/* <App /> */}
+       <ContextProvider> 
+         
+      <App />
     {/* <Object/>
     <PrevState/> */}
     {/* <WithoutArray/> */}
     {/* <UseRefBasics/> */}
     {/* <UseMemo/> */}
-    <UseCallBack/>
+    {/* <UseCallBack/> */}
+      </ContextProvider>
     
+   
    </StrictMode>,
  
 )
+//here we are providing the context to the App component so the values can be used in the AppComponent
